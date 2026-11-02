@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ryansmithphd.com/sitemap.xml
+Sitemap: https://ryansmithphd.github.io/sitemap.xml

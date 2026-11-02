@@ -1,6 +1,6 @@
 # Ryan Smith — PhD site
 
-My personal academic site. Plain HTML/CSS/JS — no build step, no dependencies.
+My personal academic site, live at **https://ryansmithphd.github.io/**. Plain HTML/CSS/JS — no build step, no dependencies.
 
 Ryan Smith — PhD candidate in Computer Science at the University of British
 Columbia, InfoVis Lab, supervised by Tamara Munzner. Research lives at the

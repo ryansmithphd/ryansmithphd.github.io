@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Ryan M. Smith — CV</title>
+<!-- Source for ../cv.pdf. Rebuild with:
+     /usr/bin/python3 -c "from weasyprint import HTML; HTML('cv-source/cv.html').write_pdf('cv.pdf')" -->
+<style>
+  @page { size: letter; margin: 0.45in 0.7in; }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.8pt; line-height: 1.27; color: #111;
+  }
+  a { color: inherit; text-decoration: none; }
+  .cv-name { font-size: 18pt; font-weight: 700; text-align: center; margin: 0 0 3pt; letter-spacing: 0.2px; }
+  .cv-tag { text-align: center; margin: 0 0 1pt; }
+  .cv-contact { text-align: center; margin: 0 0 8pt; }
+  h2 {
+    font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px;
+    margin: 8pt 0 3pt; padding-bottom: 2pt; border-bottom: 1px solid #888;
+  }
+  .row { display: flex; justify-content: space-between; align-items: baseline; margin: 4pt 0 0; gap: 10pt; }
+  .row > .left { flex: 1; min-width: 0; }
+  .row > .date { font-style: italic; white-space: nowrap; font-size: 9.5pt; color: #2b2b2b; }
+  .title-bold { font-weight: 700; }
+  .role { font-style: italic; margin: 0 0 1pt; color: #2b2b2b; }
+  .desc { margin: 0 0 1pt; color: #2b2b2b; }
+  ul { margin: 1pt 0 0; padding-left: 16pt; }
+  ul li { margin: 0 0 1pt; }
+  p.plain { margin: 2pt 0 0; }
+  .pub-group { margin: 6pt 0 1pt; }
+  .pub { margin: 1.5pt 0 2.5pt; padding-left: 14pt; text-indent: -14pt; }
+  h2 { break-after: avoid; }
+  .row, .pub { break-inside: avoid; }
+</style>
+</head>
+<body>
+
+<h1 class="cv-name">Ryan M. Smith</h1>
+<p class="cv-tag">PhD Candidate, Computer Science &nbsp;•&nbsp; University of British Columbia, InfoVis Lab</p>
+<p class="cv-contact">rs0914[at]cs.ubc.ca &nbsp;•&nbsp; rsmith0914[at]gmail.com &nbsp;•&nbsp; <a href="https://ryansmithphd.github.io/">ryansmithphd.github.io</a> &nbsp;•&nbsp; <a href="https://scholar.google.ca/citations?user=VAehdmkAAAAJ&amp;hl=en">Google Scholar</a></p>
+
+<h2>Education</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">University of British Columbia</span>, Vancouver, BC</div>
+  <div class="date">Sep 2022 – May 2027 (expected)</div>
+</div>
+<p class="role">PhD Candidate, Computer Science · InfoVis Lab · Supervisor: Dr. Tamara Munzner</p>
+<div class="row">
+  <div class="left"><span class="title-bold">New York University</span>, New York, NY</div>
+  <div class="date">Sep 2014 – May 2016</div>
+</div>
+<p class="role">MA, Psychology · Focus: Cognitive &amp; Social Psychology</p>
+<div class="row">
+  <div class="left"><span class="title-bold">Marist College</span>, Poughkeepsie, NY</div>
+  <div class="date">Sep 2010 – May 2014</div>
+</div>
+<p class="role">BA, Psychology · Dual minor in Communication &amp; Business</p>
+
+<h2>Research Interests</h2>
+<p class="plain">Text visualization; personal and medical data; visualizing vague and imprecise language; patient–clinician communication; visualization-as-input</p>
+
+<h2>Research Experience</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">InfoVis Lab, University of British Columbia</span>, Vancouver, BC</div>
+  <div class="date">Sep 2022 – Present</div>
+</div>
+<p class="role">Graduate Researcher · Supervisor: Dr. Tamara Munzner</p>
+<ul>
+  <li>Designing and building patient-centric visualization systems (HealthTale, published at IEEE VIS 2026; SymptomTale) that transform unstructured patient narratives into structured timelines for clinical encounters.</li>
+  <li>Collaborating with industry partner Thrive Health to connect research prototypes to real clinical workflows.</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Visual Thinking Lab, Northwestern University</span>, Evanston, IL</div>
+  <div class="date">Feb 2020 – May 2022</div>
+</div>
+<p class="role">Volunteer Research Assistant · PI: Dr. Steven Franconeri</p>
+<ul>
+  <li>Designed, ran, and analyzed studies on visual perception of data using R and Excel.</li>
+  <li>Contributed to multiple studies on color saturation, graph size, shape rotation, and scatterplot area.</li>
+  <li>Prepared study stimuli, coding sheets, and analysis scripts.</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">DePaul University Social Cognition Lab</span>, Chicago, IL</div>
+  <div class="date">Sep 2019 – May 2022</div>
+</div>
+<p class="role">Volunteer Research Assistant · PI: Dr. Kimberly Quinn</p>
+<ul>
+  <li>Contributed to manuscript development from existing lab data.</li>
+  <li>Conducted literature reviews and presented synthesized findings at lab meetings.</li>
+</ul>
+
+<h2>Publications and Presentations</h2>
+<p class="pub-group">Peer-Reviewed Journal &amp; Conference Papers</p>
+<p class="pub"><strong>Smith, R.</strong>, Chin, K. D., &amp; Munzner, T. (2026). “HealthTale: A Patient-Centric Health Story Visualization Tool.” <em>IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2026)</em>, to appear. arXiv:2605.20207.</p>
+<p class="pub">Oddo, M. I. B., <strong>Smith, R.</strong>, Kobourov, S., &amp; Munzner, T. (2026). “Visualization Tasks for Unlabeled Graphs.” <em>IEEE Transactions on Visualization and Computer Graphics</em>, 32(7), 5969–5983. doi:10.1109/TVCG.2026.3676348</p>
+
+<p class="pub-group">Peer-Reviewed Workshop Papers</p>
+<p class="pub"><strong>Smith, R.</strong> (2026). “User Study 47B: Interactive Dashboards After Answer-First Analytics.” In <em>VIS×SciFi Workshop, IEEE VIS 2026</em>.</p>
+<p class="pub"><strong>Smith, R.</strong> (2025). “Position Paper: Potential Areas of Bias in Visualization-as-Input Systems.” In <em>Proc. Workshop on Envisioning a Research Agenda for Input Visualization, IEEE VIS 2025</em>.</p>
+
+<p class="pub-group">Conference Presentations</p>
+<p class="pub"><strong>Smith, R.</strong>, Chin, K. D., &amp; Munzner, T. (May 2026). “HealthTale: A LLM-Assisted Health Story Visualization Tool.” BC AI Research-to-Adoption Summit.</p>
+<p class="pub"><strong>Smith, R.</strong>, &amp; Munzner, T. (May 2025). “How Do Patients Visualize Their Own Health Stories?” SeattleVis Day, Seattle, WA.</p>
+<p class="pub"><strong>Smith, R.</strong>, Bellovary, A., &amp; Quinn, K. (February 2021). “Sense of Place and Student Wellbeing: Preliminary Evidence for Impact of Liked but Not Disliked Spaces.” Society for Personality and Social Psychology Annual Convention, Virtual.</p>
+<p class="pub"><strong>Smith, R.</strong>, Krenzer, W., Quinn, K., &amp; Gomez, P. (November 2020). “The Cheerleader Effect: Replication and Extension.” Psychonomic Society Annual Meeting, Virtual.</p>
+
+<h2>Grants and Funding</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">MITACS Accelerate Grant IT44143</span></div>
+  <div class="date">2025</div>
+</div>
+<p class="desc">Two-year, CAD $90,000 grant for industry collaboration with Thrive Health.</p>
+<div class="row">
+  <div class="left"><span class="title-bold">MITACS Accelerate Grant IT38408</span></div>
+  <div class="date">2024</div>
+</div>
+<p class="desc">One-year, CAD $45,000 grant for industry collaboration with Thrive Health.</p>
+
+<h2>Awards, Honors, &amp; Certifications</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">IEEE VIS 2026 Doctoral Colloquium</span></div>
+  <div class="date">2026</div>
+</div>
+<ul>
+  <li>Selected participant; presented thesis work to a panel of senior visualization researchers.</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Instructional Skills Workshops for Graduate Students</span></div>
+  <div class="date">2026</div>
+</div>
+<ul>
+  <li>Completed the Instructional Skills Workshop (ISW), an internationally recognized, intensive 24-hour teaching certification focused on learner-centred pedagogy and instructional design</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">UBC Faculty of Science Excellence in Service Award</span></div>
+  <div class="date">2025</div>
+</div>
+<ul>
+  <li>Annual award given to two students in UBC’s Faculty of Science for service and positive impact.</li>
+  <li>Recognized for advocating an embedded counselor within the Faculty of Science, enabling graduate students to access mental-health support without navigating the central university queue.</li>
+</ul>
+
+<h2>Teaching Experience</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">Lecturer</span> · COGS 303, Research Methods in Cognitive Systems, UBC</div>
+  <div class="date">Jan 2026 – May 2026</div>
+</div>
+<ul>
+  <li>Designed and delivered a full undergraduate research methods course, consisting of 38 students, including development of syllabus, instructional materials, and assessment structure.</li>
+  <li>Implemented an active-learning, high-engagement classroom model emphasizing small-group, application-focused sessions and student-led inquiry</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Teaching Assistant</span> · CPSC 447, Introduction to Visualization, UBC</div>
+  <div class="date">Winter 1 2023, Winter 2 2025</div>
+</div>
+<ul>
+  <li>Supported course design and grading for assignments, projects, and exams on data visualization.</li>
+  <li>Held regular office hours and Piazza discussions; provided detailed feedback on student projects.</li>
+  <li>Maintained course website and materials.</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Teaching Assistant</span> · CPSC 103, Introduction to Systematic Program Design, UBC</div>
+  <div class="date">Winter 2 2023</div>
+</div>
+<ul>
+  <li>Graded assignments and tests; gave feedback focused on clean, efficient programming practices.</li>
+  <li>Ran course labs covering core programming concepts and provided technical support for student projects.</li>
+</ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Teaching Assistant</span> · CPSC 100, Computational Thinking, UBC</div>
+  <div class="date">Winter 1 2022</div>
+</div>
+<ul>
+  <li>Led course labs introducing foundational computer-science concepts and problem solving.</li>
+  <li>Graded assignments and exams.</li>
+</ul>
+
+<h2>Service and Leadership</h2>
+<div class="row">
+  <div class="left"><span class="title-bold">President</span> · Computer Science Graduate Student Association, UBC</div>
+  <div class="date">May 2026 – May 2027</div>
+</div>
+<ul><li>Leading the CS GSA; representing CS graduate students to the department and university.</li></ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Vice President</span> · Computer Science Graduate Student Association, UBC</div>
+  <div class="date">May 2024 – May 2025</div>
+</div>
+<ul><li>Co-led CS GSA operations, events, and advocacy.</li></ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Councillor</span> · Graduate Student Society, Executive Oversight Committee, UBC</div>
+  <div class="date">Apr 2024 – Present</div>
+</div>
+<ul><li>Elected councillor representing graduate students; serve on the Executive Oversight Committee.</li></ul>
+<div class="row">
+  <div class="left"><span class="title-bold">TA Union Steward</span> · CUPE 2278, Computer Science Department, UBC</div>
+  <div class="date">Feb 2024 – Present</div>
+</div>
+<ul><li>Department steward for the UBC teaching-assistant union; represent TAs on labor and workload issues.</li></ul>
+<div class="row">
+  <div class="left"><span class="title-bold">Reviewer</span> · ACM CHI 2026</div>
+  <div class="date">2025</div>
+</div>
+<ul><li>Reviewed submissions for the ACM CHI 2026 conference.</li></ul>
+
+</body>
+</html>
